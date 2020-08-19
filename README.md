@@ -1,1 +1,1 @@
-# Angular-The-Complete-Guide-2020
+# Angular - The Complete Guide (2020)
