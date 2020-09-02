@@ -1,0 +1,13 @@
+<hr>
+<label >Username</label>
+<input 
+    type="text" 
+    class="form-control"
+    [(ngModel)]="username">
+<hr>
+<button 
+    class="btn btn-primary"
+    [disabled]="isUsernameEmpty()"
+    (click)="onSubmitUsernameClicked()">Submit</button>
+<hr>
+<h3>Username: {{ username }}</h3>
